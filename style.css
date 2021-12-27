@@ -1,0 +1,256 @@
+html,
+body {
+    min-width: 1440px;
+    background-color: rgba(55, 48, 163, 1);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 150px;
+    margin-top: 104px;
+}
+
+.logo {
+    margin-left: 130px;
+    
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left: 578px;
+   width: 540px;
+   align-items: center;
+}
+
+nav a {
+    color: rgba(107, 114, 128, 1);
+}
+
+.entry {
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-bottom: 198px;
+}
+
+.entry-text-block {
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-name-block {
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    margin-bottom: 40px;
+}
+
+.name-block {
+    font-size: 20px;
+    font-style: medium;
+    color: rgba(67, 56, 202, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 257px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.blue-stripe {
+    margin-right: 10px;
+    width: 102px;
+}
+
+.txt-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 257px;
+}
+
+.txt-big {
+    font-size: 72px;
+    font-weight: 700;
+    color: rgba(31, 41, 55, 1);
+    margin-bottom: 40px;
+}
+
+.txt-low {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(107, 114, 128, 1);
+    margin-bottom: 40px;
+}
+
+.bp-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 308px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blue-button {
+    width: 131px;
+    height: 52px;
+    background-color: rgba(55, 48, 163, 1);
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-button {
+    width: 157px;
+    height: 47px;
+    border: 1px solid rgba(55, 48, 163, 1);
+    color: rgba(55, 48, 163, 1);
+    border-radius: 6px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bp-avatar {
+    width: 478px;
+    height: 525px;  
+}
+
+.hire-me {
+    border: 1px solid rgba(55, 48, 163, 1);
+    color: rgba(55, 48, 163, 1);
+    border-radius: 6px;
+    text-align: center;
+    width: 131px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire-me a {
+    color: rgba(55, 48, 163, 1);
+}
+
+.grey-stripe {
+    width: 622px;
+}
+
+.entry-little {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(107, 114, 128, 1);
+}
+
+.intro-text {
+    font-size: 48px;
+    font-weight: 600;
+    width: 1039px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.work-examples-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.we-logo {
+    width: 440px;
+    height: 622px;
+}
+
+.we-link-block {
+    width: 690px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.we-link {
+    width: 311px;
+    color: rgba(107, 114, 128, 1);
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.we-link h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(31, 41, 55, 1);
+}
+
+.arrow-link {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(55, 48, 163, 1);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.trusted-by-wrapper {
+    width: 1440px;
+    height: 299px;
+    background-color: rgba(254, 242, 242, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.trusted-little-wrapper {
+    width: 1172px;
+    margin: 100px auto;
+}
+
+.trusted-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(156, 163, 175, 1);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.trusted-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1172px;
+    margin
+}
